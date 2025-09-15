@@ -141,7 +141,7 @@ const Login = () => {
                   <Input
                     id="identifier"
                     type="text"
-                    placeholder={selectedRole === "tourist" ? "Enter your blockchain id (e.g., tourist123)" : "Enter your ID"}
+                    placeholder={selectedRole === "tourist" ? "Enter your blockchain id (e.g., 12345)" : "Enter your ID"}
                     value={identifier}
                     onChange={(e) => setIdentifier(e.target.value)}
                     className="h-12 border-gray-200 focus:border-emerald-500 focus:ring-emerald-500"
@@ -200,7 +200,7 @@ const Login = () => {
               <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mt-6">
                 <p className="text-sm font-medium text-gray-700 mb-3">Demo Credentials:</p>
                 <div className="text-xs text-gray-600 space-y-1">
-                  <div><strong>Tourist:</strong> ID: tourist001, Last 4 digits: 1234</div>
+                  <div><strong>Tourist:</strong> ID: 12345, Last 4 digits: 1234</div>
                   <div><strong>Police:</strong> ID: police001, Password: demo123</div>
                   <div><strong>Transport:</strong> ID: transport001, Password: demo123</div>
                   <div><strong>Super Admin:</strong> ID: superadmin, Password: demo123</div>
