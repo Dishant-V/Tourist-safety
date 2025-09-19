@@ -7,6 +7,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    allowedHosts: ["tourist-safety-d507.onrender.com"], // ✅ allow your Render host
   },
   plugins: [react()],
   resolve: {
